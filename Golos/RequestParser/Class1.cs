@@ -1,6 +1,6 @@
-﻿using System;
+﻿sing System;
 
-namespace Core
+namespace RequestParser
 {
     public class Class1
     {
