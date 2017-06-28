@@ -7,7 +7,6 @@ namespace Core
     {
         public List<IApp> Apps => throw new NotImplementedException();
 
-        public void Do(IApp App, string[] Argument) =>
-            App.Do();
+        public void Do(IApp App, string[] Argument) => App.Do();
     }
 }
