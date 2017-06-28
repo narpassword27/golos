@@ -7,9 +7,9 @@ namespace Core
     static class CoreMain
     {
         public static List<IFunction> Modules = GetModules();
-        public static Dictionary<Type, Type> Apps =
-                .SelectMany(f => f.Apps)
-                .ToDictionary(f, )
+        public static Dictionary<IFunction, List<IApp>> Apps =
+            Modules
+                .ToDictionary(f => f, f => f.Apps);
 
 
 
