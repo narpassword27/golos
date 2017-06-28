@@ -1,23 +1,20 @@
-﻿using System;
-
-namespace Core
+﻿namespace Core
 {
     public class Request
     {
-        public IFunction Function { get; }
         public IApp App { get; }
-        public string[] RawArgument { get; }
+        public string[] Argument { get; }
 
-        public Request (IFunction _function, IApp _app, string[] _rawArgument)
+        public Request (IApp _app, string[] _argument)
         {
-            this.Function = _function;
             this.App = _app;
-            this.RawArgument = _rawArgument;
+            this.Argument = _argument;
         }
 
         public void Respond()
         {
-
+            this.App.Respond();
+            this.App.Do();
         }
     }
 }

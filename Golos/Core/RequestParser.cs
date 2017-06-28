@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Core
 {
@@ -17,10 +15,10 @@ namespace Core
 
         private Request Tokenize(string request)
         {
+            Activator.CreateInstance(AppDomain.);
 
 
-
-            return new Request(new IFunction, new IApp, new string[] { });
+            return new Request(new Hello(), new string[] { });
         }
     }
 }

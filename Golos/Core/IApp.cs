@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Core
+﻿namespace Core
 {
     public interface IApp
     {
+        string[] Argument { get; set; }
+        void Respond();
+        void Do();
     }
 }
