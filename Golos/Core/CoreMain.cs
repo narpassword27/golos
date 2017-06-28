@@ -8,8 +8,7 @@ namespace Core
     {
         public static List<IFunction> Modules = GetModules();
         public static Dictionary<IFunction, List<IApp>> Apps =
-            Modules
-                .ToDictionary(f => f, f => f.Apps);
+            Modules.ToDictionary(f => f, f => f.Apps);
 
 
 
