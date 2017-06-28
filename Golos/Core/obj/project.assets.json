@@ -3703,15 +3703,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Darren\\.nuget\\packages\\": {}
+    "C:\\Users\\Kaan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Darren\\Documents\\GitHub\\golos\\Golos\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\User Files\\Workspace\\golos\\Golos\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Darren\\Documents\\GitHub\\golos\\Golos\\Core\\Core.csproj",
-      "outputPath": "C:\\Users\\Darren\\Documents\\GitHub\\golos\\Golos\\Core\\obj\\",
+      "projectPath": "D:\\User Files\\Workspace\\golos\\Golos\\Core\\Core.csproj",
+      "outputPath": "D:\\User Files\\Workspace\\golos\\Golos\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.4"

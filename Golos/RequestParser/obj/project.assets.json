@@ -3703,15 +3703,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Darren\\.nuget\\packages\\": {}
+    "C:\\Users\\Kaan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Darren\\Documents\\GitHub\\golos\\Golos\\RequestParser\\RequestParser.csproj",
+      "projectUniqueName": "D:\\User Files\\Workspace\\golos\\Golos\\RequestParser\\RequestParser.csproj",
       "projectName": "RequestParser",
-      "projectPath": "C:\\Users\\Darren\\Documents\\GitHub\\golos\\Golos\\RequestParser\\RequestParser.csproj",
-      "outputPath": "C:\\Users\\Darren\\Documents\\GitHub\\golos\\Golos\\RequestParser\\obj\\",
+      "projectPath": "D:\\User Files\\Workspace\\golos\\Golos\\RequestParser\\RequestParser.csproj",
+      "outputPath": "D:\\User Files\\Workspace\\golos\\Golos\\RequestParser\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.4"
