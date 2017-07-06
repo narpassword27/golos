@@ -25,6 +25,12 @@ namespace GolosApp
         public MainPage()
         {
             this.InitializeComponent();
+            Start();
+        }
+
+        public void Start()
+        {
+
         }
     }
 }
