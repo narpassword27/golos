@@ -8,19 +8,21 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <GridViewItem>
-            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock Name="MainText" FontSize="26">
+        <GridView>
+            <GridViewItem VerticalAlignment="Center" HorizontalAlignment="Center">
+                <ContentPresenter>
+                    <TextBlock Name="MainText" FontSize="26">
                     MainText Placeholder
-                </TextBlock>
-            </ContentPresenter>
-        </GridViewItem>
-        <GridViewItem>
-            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock Name="SubText" FontSize="20">
+                    </TextBlock>
+                </ContentPresenter>
+            </GridViewItem>
+            <GridViewItem VerticalAlignment="Center" HorizontalAlignment="Center" >
+                <ContentPresenter>
+                    <TextBlock Name="SubText" FontSize="20">
                     SubText Placeholder
-                </TextBlock>
-            </ContentPresenter>
-        </GridViewItem>
+                    </TextBlock>
+                </ContentPresenter>
+            </GridViewItem>
+        </GridView>
     </Grid>
 </Page>
